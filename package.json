@@ -1,7 +1,15 @@
 {
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "Here resides all my learning content on JS and Backend using nodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Alyaa_Gamal",
+  "license": "MIT",
   "dependencies": {
-    "express": "^5.1.0"
+    "chalk": "^5.4.1"
   }
-
-  ,"type": "module"
 }
