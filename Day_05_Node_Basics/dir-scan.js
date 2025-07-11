@@ -19,7 +19,7 @@ fs.mkdir("Day_05_Node_Basics/Tutorial", (err) => {
 // Write a script to read a directory, filter .txt files, and log their names.
 fs.readdir('Day_05_Node_Basics/Tutorial', (err, files) => {
   if (err) throw err;
-  for (let file of files) {
+  for (let file of files) {    // use of to loop on files
     let ext = path.extname(file);
     if (ext === '.txt') {
       console.log(file);

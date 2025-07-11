@@ -2,10 +2,10 @@
 import fs from 'fs';
 
 //----- Write in Text File -----//
-// fs.writeFile('Day_04_Node_Basics/Data.txt','Alyaa Gamal',(err)=>{
-//     if (err) throw err;
-//     console.log("Data is added");
-// })
+fs.writeFile('Day_04_Node_Basics/Data.txt','Alyaa Gamal',(err)=>{
+    if (err) throw err;
+    console.log("Data is added");
+})
 
 //----- Append data in Text File -----//
 fs.appendFile("Day_04_Node_Basics/Data.txt"," a computer science student",(err)=>{
