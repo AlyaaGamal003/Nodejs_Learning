@@ -150,6 +150,12 @@ fs.unlink("Day_04_Node_Basics/example.txt",(err)=>{
     if (err) throw err;
     console.log("File is Deleted");
 })
+
+//------------------- Rename Text File -----------------//
+fs.rename('Day_04_Node_Basics/Data.txt', 'Day_04_Node_Basics/Data2.txt', (err) => {
+    if (err) throw err;
+    console.log("File renamed Successfully");
+});
 ```
 
 ---
